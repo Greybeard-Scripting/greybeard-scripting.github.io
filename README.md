@@ -1,6 +1,7 @@
 # Greybeard Scripting PowerShell Docs
 
 This site is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
+- [Jekyll Setup](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
 ## Local Development
 
