@@ -5,12 +5,15 @@ This site is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pa
 
 ## Local Development
 
-To preview locally:
+To preview locally, use bash:
 
 ```sh
+cd /c/source/greybeard-scripting.github.io
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --watch --livereload
 ```
+
+Open `http://localhost:4000`
 
 ## Theme
 
