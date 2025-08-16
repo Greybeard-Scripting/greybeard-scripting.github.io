@@ -1,4 +1,4 @@
-# Greybeard Scripting PowerShell Docs v2
+# Greybeard Scripting PowerShell Docs
 
 Welcome to the sample PowerShell documentation site! This site demonstrates how to document PowerShell scripts and modules using GitHub Pages.
 
