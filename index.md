@@ -1,8 +1,5 @@
 # Greybeard Scripting PowerShell Docs
 
-<link id="theme-style" rel="stylesheet" href="assets/theme-light.css">
-<script src="theme-switcher.js"></script>
-
 Welcome to the sample PowerShell documentation site! This site demonstrates how to document PowerShell scripts and modules using GitHub Pages.
 
 ## Getting Started
