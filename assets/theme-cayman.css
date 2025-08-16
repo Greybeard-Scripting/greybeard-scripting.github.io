@@ -1,0 +1,10 @@
+/* Cayman theme (light) */
+body {
+  background: #f6f8fa;
+  color: #24292f;
+}
+.navbar, .site-header {
+  background: #159957;
+  color: #fff;
+}
+/* Add more cayman-like styles as needed */

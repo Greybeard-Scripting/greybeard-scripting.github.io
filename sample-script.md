@@ -1,5 +1,8 @@
 # Sample PowerShell Script Documentation
 
+<link id="theme-style" rel="stylesheet" href="assets/theme-light.css">
+<script src="theme-switcher.js"></script>
+
 This page documents a sample PowerShell script.
 
 ## Script: `Get-HelloWorld.ps1`

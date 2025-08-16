@@ -1,0 +1,10 @@
+/* Light theme (default, minima style) */
+body {
+  background: #fff;
+  color: #222;
+}
+.navbar, .site-header {
+  background: #f8f8f8;
+  color: #222;
+}
+/* Add more minima-like light theme styles as needed */

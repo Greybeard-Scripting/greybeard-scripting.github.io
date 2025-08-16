@@ -1,0 +1,10 @@
+/* Dark theme (minima style) */
+body {
+  background: #181818;
+  color: #eee;
+}
+.navbar, .site-header {
+  background: #222;
+  color: #eee;
+}
+/* Add more minima-like dark theme styles as needed */
