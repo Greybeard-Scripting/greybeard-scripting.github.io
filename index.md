@@ -2,7 +2,7 @@
 title: Home
 layout: home
 nav_order: 1
-description: "Documentation for PowerShell Universal: coding standards, best practices, and custom cmdlets/components beyond the out-of-the-box experience."
+description: "Documentation for PowerShell Universal: coding standards, best practices, and custom cmdlets/cmdlets beyond the out-of-the-box experience."
 permalink: /
 ---
 
@@ -12,7 +12,7 @@ This documentation site is designed to help you get the most out of PowerShell U
 
 - **Comprehensive guides** for using and extending PowerShell Universal
 - **Coding standards** to ensure high-quality, maintainable scripts and modules
-- **Documentation for non-OOB (Out-of-the-Box) cmdlets and components** that enhance your automation solutions
+- **Documentation for non-OOB (Out-of-the-Box) cmdlets and cmdlets** that enhance your automation solutions
 - **Best practices** for PowerShell development
 
 ## Purpose
@@ -20,7 +20,7 @@ This documentation site is designed to help you get the most out of PowerShell U
 Our goal is to provide a single source of truth for:
 
 - Team and community coding standards
-- Usage and examples of custom cmdlets and components not included with PowerShell Universal by default
+- Usage and examples of custom cmdlets and cmdlets not included with PowerShell Universal by default
 - Guidance on writing clean, efficient, and secure PowerShell code
 
 ## Coding Standards
@@ -33,15 +33,15 @@ We promote consistent, readable, and maintainable code. Key standards include:
 - Include comments and documentation for all public functions and modules
 - Adhere to formatting and style guidelines (see the Coding Standards section for details)
 
-## Non-OOB Cmdlets and Components
+## Non-OOB Cmdlets and cmdlets
 
-This site documents custom cmdlets, modules, and UI components that are not delivered with PowerShell Universal out-of-the-box. These additions help you:
+This site documents custom cmdlets, modules, and UI cmdlets that are not delivered with PowerShell Universal out-of-the-box. These additions help you:
 
 - Extend the platform's capabilities
 - Integrate with external systems
 - Address unique business requirements
 
-Refer to the [Components](docs/components) section for details on available custom components.
+Refer to the [cmdlets](docs/cmdlets) section for details on available custom cmdlets.
 
 ## General PowerShell Best Practices
 

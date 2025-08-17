@@ -1,6 +1,6 @@
 ---
 title: Show-UDObject
-parent: Components
+parent: cmdlets
 # nav_order: 1
 ---
 

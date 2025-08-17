@@ -1,6 +1,6 @@
 ---
 title: Reset-UDPage
-parent: Components
+parent: cmdlets
 # nav_order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: New-UDCenter
-parent: Components
+parent: cmdlets
 # nav_order: 2
 ---
 
