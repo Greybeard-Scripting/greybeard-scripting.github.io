@@ -1,38 +1,115 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml"><img src="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys"><img src="https://api.netlify.com/api/v1/badges/9dc0386d-c2a4-4077-ad83-f02c33a6c0ca/deploy-status" alt="Netlify Status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.com/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
+# Greybeard Scripting PowerShell Documentation
 
-<p align="center">A video walkthrough of various Just the Docs features</p>
+A comprehensive PowerShell documentation site featuring tips, tricks, and utility functions for PowerShell developers.
 
-https://user-images.githubusercontent.com/85418632/211225192-7e5d1116-2f4f-4305-bb9b-437fe47df071.mp4
+🌐 **Live Site**: [greybeard-scripting.github.io](https://greybeard-scripting.github.io)
 
-## Installation
+## What's Inside
 
-### Use the template
-# Greybeard Scripting PowerShell Docs
+- **PowerShell Tips & Tricks**: Best practices and useful techniques
+- **PSU Apps**: PowerShell Universal dashboard components and utilities
+- **Code Examples**: Ready-to-use PowerShell functions and scripts
 
-This site is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
-- [Jekyll Setup](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+## Quick Start for Contributors
 
-## Local Development
+### Prerequisites
 
-To preview locally, use bash:
+- [Ruby](https://rubyinstaller.org/downloads/) (for Windows)
+- [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+- [Git](https://git-scm.com/)
+- [VS Code](https://code.visualstudio.com/) (recommended)
 
-```sh
-cd /c/source/greybeard-scripting.github.io
-bundle install
-bundle exec jekyll serve --watch --livereload
+### Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Greybeard-Scripting/greybeard-scripting.github.io.git
+   cd greybeard-scripting.github.io
+   ```
+
+2. **Install dependencies**
+   ```bash
+   bundle install
+   ```
+
+3. **Start the development server**
+   ```bash
+   bundle exec jekyll serve --watch --livereload --open-url
+   ```
+   
+   This will:
+   - Start a local server at `http://localhost:4000`
+   - Watch for file changes and auto-reload
+   - Automatically open your browser
+
+## Development Workflow
+
+### Using VS Code Tasks (Recommended)
+
+1. Open the project in VS Code
+2. Press `F1` to open the command palette
+3. Type `Tasks: Run Task` and press Enter
+4. Select one of these tasks:
+   - **Bundle Install**: Install/update Ruby dependencies
+   - **Serve**: Start development server with live reload
+   - **Build**: Generate static site files
+
+### Manual Commands
+
+| Task | Command | Description |
+|------|---------|-------------|
+| **Serve** | `bundle exec jekyll serve --watch --livereload --open-url` | Start dev server with live reload |
+| **Build** | `bundle exec jekyll build` | Generate static site files |
+| **Install** | `bundle install` | Install Ruby dependencies |
+
+## Project Structure
+
+```
+├── docs/                    # Documentation content
+│   ├── powershell-tips-and-tricks/
+│   └── psu-apps/
+├── _config.yml             # Jekyll configuration
+├── Gemfile                 # Ruby dependencies
+└── index.md               # Homepage content
 ```
 
-Open `http://localhost:4000`
+## Adding Content
 
-## Theme
+1. **Create new pages** in the `docs/` directory
+2. **Use Markdown** with YAML front matter:
+   ```yaml
+   ---
+   title: "Your Page Title"
+   parent: "Parent Section"
+   nav_order: 1
+   ---
+   
+   # Your content here
+   ```
+3. **Test locally** before committing changes
 
-This site uses Just the Docs, a documentation theme for Jekyll, edit `_config.yml` and select from the [supported themes](https://pages.github.com/themes/).
+## Technology Stack
+
+- **[Jekyll](https://jekyllrb.com/)**: Static site generator
+- **[Just the Docs](https://just-the-docs.com/)**: Documentation theme
+- **[GitHub Pages](https://pages.github.com/)**: Hosting platform
+- **Markdown**: Content format
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test locally using the development server
+5. Submit a pull request
+
+## Useful Links
+
+- [Jekyll Documentation](https://jekyllrb.com/docs/)
+- [Just the Docs Theme Guide](https://just-the-docs.com/)
+- [GitHub Pages Setup](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+- [Markdown Guide](https://www.markdownguide.org/)
+
+---
+
+**Questions?** Open an issue or reach out to the Greybeard Scripting team!
