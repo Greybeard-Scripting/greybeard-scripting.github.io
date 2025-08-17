@@ -49,7 +49,7 @@ GEM
     ffi (1.17.1-arm64-darwin)
     ffi (1.17.1-x64-mingw-ucrt)
     ffi (1.17.1-x86_64-linux-gnu)
-    fiddle (1.1.6)
+    fiddle (1.1.8)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (232)
