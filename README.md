@@ -35,4 +35,4 @@ Open `http://localhost:4000`
 
 ## Theme
 
-This site uses the official GitHub Pages `minima` theme. To change the theme, edit `_config.yml` and select from the [supported themes](https://pages.github.com/themes/).
+This site uses Just the Docs, a documentation theme for Jekyll, edit `_config.yml` and select from the [supported themes](https://pages.github.com/themes/).
