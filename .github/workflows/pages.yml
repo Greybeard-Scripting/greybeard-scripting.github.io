@@ -28,6 +28,9 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
     steps:
       - name: Checkout for pages.yml
         uses: actions/checkout@v4
@@ -36,7 +39,8 @@ jobs:
         with:
           ruby-version: '3.3' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 1 # Incremented to force re-download of cached gems
+          cache-version: 0 # Incremented to force re-download of cached gems
+          working-directory: '${{ github.workspace }}/docs'
       - name: Run bundle install
         run: bundle install # Executes bundle install
       - name: Setup Pages
@@ -50,6 +54,8 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/_site/
 
   # Deployment job
   deploy:
