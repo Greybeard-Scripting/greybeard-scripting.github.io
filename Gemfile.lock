@@ -15,6 +15,7 @@ GEM
     ffi (1.17.1-arm64-darwin)
     ffi (1.17.1-x64-mingw-ucrt)
     ffi (1.17.1-x86_64-linux-gnu)
+    fiddle (1.1.6)
     forwardable-extended (2.6.0)
     google-protobuf (4.29.3-arm64-darwin)
       bigdecimal
@@ -97,6 +98,7 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
+  fiddle
   jekyll (~> 4.4.1)
   just-the-docs (= 0.10.1)
 
