@@ -1,6 +1,6 @@
 ---
 title: Reset-UDPage
-parent: cmdlets
+parent: PSU App Helpers
 # nav_order: 1
 ---
 

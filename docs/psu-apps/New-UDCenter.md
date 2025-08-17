@@ -1,6 +1,6 @@
 ---
 title: New-UDCenter
-parent: cmdlets
+parent: PSU App Helpers
 # nav_order: 2
 ---
 
