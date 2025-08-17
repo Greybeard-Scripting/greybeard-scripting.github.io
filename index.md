@@ -1,58 +1,35 @@
 ---
 title: Home
 layout: home
-nav_order: 1
-description: "Documentation for PowerShell Universal: coding standards, best practices, and custom cmdlets/components beyond the out-of-the-box experience."
-permalink: /
 ---
 
-# Welcome to the PowerShell Universal Documentation
+This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
-This documentation site is designed to help you get the most out of PowerShell Universal by providing:
+If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
 
-- **Comprehensive guides** for using and extending PowerShell Universal
-- **Coding standards** to ensure high-quality, maintainable scripts and modules
-- **Documentation for non-OOB (Out-of-the-Box) cmdlets and components** that enhance your automation solutions
-- **Best practices** for PowerShell development
+More specifically, the created site:
 
-## Purpose
+- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
+- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
 
-Our goal is to provide a single source of truth for:
+Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
 
-- Team and community coding standards
-- Usage and examples of custom cmdlets and components not included with PowerShell Universal by default
-- Guidance on writing clean, efficient, and secure PowerShell code
+[Browse our documentation][Just the Docs] to learn more about how to use this theme.
 
-## Coding Standards
+To get started with creating a site, simply:
 
-We promote consistent, readable, and maintainable code. Key standards include:
+1. click "[use this template]" to create a GitHub repository
+2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
 
-- Use clear and descriptive names for functions, variables, and parameters
-- Follow PowerShell best practices for error handling and input validation
-- Write reusable, modular functions and scripts
-- Include comments and documentation for all public functions and modules
-- Adhere to formatting and style guidelines (see the Coding Standards section for details)
+If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
 
-## Non-OOB Cmdlets and Components
+----
 
-This site documents custom cmdlets, modules, and UI components that are not delivered with PowerShell Universal out-of-the-box. These additions help you:
+[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
-- Extend the platform's capabilities
-- Integrate with external systems
-- Address unique business requirements
-
-Refer to the [Components](docs/components) section for details on available custom components.
-
-## General PowerShell Best Practices
-
-- Use approved verbs for function names
-- Avoid using aliases in scripts and modules
-- Prefer pipeline-friendly functions
-- Implement robust error handling with `try/catch/finally`
-- Write Pester tests for your code
-
-For more details, see the Coding Standards and Best Practices sections in this documentation.
-
----
-
-We hope this documentation helps you build powerful, maintainable, and secure automation solutions with PowerShell Universal!
+[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
+[GitHub Pages]: https://docs.github.com/en/pages
+[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
+[Jekyll]: https://jekyllrb.com
+[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
+[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
