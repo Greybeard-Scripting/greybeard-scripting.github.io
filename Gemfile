@@ -4,7 +4,7 @@ gem "just-the-docs"        # always download the latest release
 
 gem "fiddle"
 
-gem "jekyll"#, "~> 4.4.1" # installed by `gem jekyll`
+gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
 # gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
 
 gem 'github-pages', group: :jekyll_plugins
