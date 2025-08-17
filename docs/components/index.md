@@ -1,7 +1,7 @@
 ---
 title: Components
 # parent: UI Components
-#nav_order: 6
+nav_order: 2
 ---
 
 # doc for components
