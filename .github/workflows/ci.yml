@@ -21,23 +21,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Ruby ${{ matrix.ruby-version }}
+      - name: Setup Ruby 3.4
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ matrix.ruby-version }}
+          ruby-version: 3.4
           bundler-cache: false
-      - name: Bundle Install (Jekyll ${{ matrix.jekyll-version }})
+      - name: Bundle Install (Jekyll 4.3)
         run: bundle install
         env:
-          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-4.3
       - name: Init Search
         run: bundle exec rake search:init
         env:
-          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-4.3
       - name: Build Site
         run: bundle exec jekyll build
         env:
-          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-4.3
 
   github-pages-build:
     name: Build (github-pages gem)
@@ -68,10 +68,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Ruby ${{ matrix.ruby-version }}
+      - name: Setup Ruby 3.4
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ matrix.ruby-version }}
+          ruby-version: 3.4
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Cache HTMLProofer
