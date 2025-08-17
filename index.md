@@ -1,8 +1,13 @@
-# Greybeard Scripting PowerShell Docs v5
+---
+title: Home
+layout: home
+nav_order: 1
+description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+permalink: /
+---
 
-Welcome to the sample PowerShell documentation site! This site demonstrates how to document PowerShell scripts and modules using GitHub Pages.
+# Focus on writing good documentation
+{: .fs-9 }
 
-## Getting Started
-
-- Browse the [Sample Script Documentation](sample-script.md)
-- Learn more about [PowerShell](https://docs.microsoft.com/powershell/)
+Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+{: .fs-6 .fw-300 }
