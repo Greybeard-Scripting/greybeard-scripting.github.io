@@ -1,10 +1,10 @@
 ---
 title: New-UDRight
 parent: Components
-# nav_order: 3
+# nav_order: 1
 ---
 
-## Code
+# New-UDRight
 {: .no_toc }
 
 ## Table of contents
@@ -18,7 +18,7 @@ parent: Components
 ## New-UDRight
 
 **Module:** PowerShellUniversal.Apps.Tools  
-**Source:** [PowerShellUniversal.Apps.Tools.psm1](https://github.com/ironmansoftware/gallery/blob/b7e579ff12793dba880c06cab0df059f5fe6b43b/Apps/PowerShellUniversal.Apps.Tools/PowerShellUniversal.Apps.Tools.psm1#L1)
+**Source:** [PowerShellUniversal.Apps.Tools.psm1](https://github.com/ironmansoftware/gallery/blob/b7e579ff12793dba880c06cab0df059f5fe6b43b/Apps/PowerShellUniversal.Apps.Tools/PowerShellUniversal.Apps.Tools.psm1#L28)
 
 ---
 
