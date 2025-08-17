@@ -7,8 +7,3 @@ gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
 
 gem "just-the-docs", "0.10.1" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
-
-# Only use wdm on Windows for local development
-if Gem.win_platform?
-  gem 'wdm', '>= 0.1.0'
-end
