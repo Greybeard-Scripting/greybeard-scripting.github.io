@@ -41,7 +41,7 @@ This site documents custom cmdlets, modules, and UI components that are not deli
 - Integrate with external systems
 - Address unique business requirements
 
-Refer to the [Components](docs/components/index.md) section for details on available custom components.
+Refer to the [Components](docs/components) section for details on available custom components.
 
 ## General PowerShell Best Practices
 
