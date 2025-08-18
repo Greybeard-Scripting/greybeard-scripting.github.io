@@ -18,8 +18,8 @@ A comprehensive PowerShell documentation site featuring tips, tricks, and utilit
 
 ### Prerequisites
 
-- [Ruby](https://rubyinstaller.org/downloads/) (for Windows)
-- [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+- [Ruby](https://rubyinstaller.org/downloads/) (for Windows) `Take Optiion 3: MSYS2 and MINGW development toolchain`
+- [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) `gem install jekyll bundler`
 - [Git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/) (recommended)
 
@@ -40,7 +40,7 @@ A comprehensive PowerShell documentation site featuring tips, tricks, and utilit
    ```bash
    bundle exec jekyll serve --watch --livereload --open-url
    ```
-   
+
    This will:
    - Start a local server at `http://localhost:4000`
    - Watch for file changes and auto-reload
@@ -87,7 +87,7 @@ A comprehensive PowerShell documentation site featuring tips, tricks, and utilit
    parent: "Parent Section"
    nav_order: 1
    ---
-   
+
    # Your content here
    ```
 3. **Test locally** before committing changes
